@@ -35,5 +35,6 @@ The other Python file, “planner_real_data.py” performs the exact same geneti
 The program will prompt you to enter a “Point:”. This is the latitude, longitude point of the part of the world you want to create a transit map for. Any latitude and longitude can be used. Below are two example points that can be used. Enter this exactly as it appears in the quotations:
 1.	Raleigh, NC – “35.7804, -78.6391”
 2.	Manhattan Island, New York City, NY – “40.7470, -73.9887”
+
 After inputting the coordinate point, the program will ask you to enter a size. This is the radius from the point to make a map for. Enter 2000 for a default value that does not take too long to run.
 After entering the size of the zone, the program will begin to fetch data from OSMnx about road network and population density of the entered zone, which will take about 15-30 seconds, after which the genetic algorithm will run the same as the original implementation. After converging, a convergence plot will show, followed by the transit layout and commuter flow of the location entered.
